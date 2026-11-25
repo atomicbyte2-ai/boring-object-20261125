@@ -3,8 +3,9 @@ import { join } from "node:path";
 
 // One-line review of a paperclip: the dullest office object, whose whole
 // career ends the day someone unfolds it to poke a router reset button.
+// The last words are the punchline — it never goes back to clipping.
 const LINE =
-  "Five stars. It held my papers together for four years, then I unfolded it to poke my router's reset button, and it has never clipped anything since.";
+  "Five stars. It held my papers together for four years, then I unfolded it to poke my router's reset button, and it has never clipped a thing since.";
 
 function validate(line: string): void {
   if (line.length < 1 || line.length > 200) {

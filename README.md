@@ -1,6 +1,6 @@
 # The Most Boring Object, Reviewed in One Line
 
-> Five stars. It held my papers together for four years, then I unfolded it to poke my router's reset button, and it has never clipped anything since.
+> Five stars. It held my papers together for four years, then I unfolded it to poke my router's reset button, and it has never clipped a thing since.
 
 `main.ts` holds the one-line paperclip review as a constant, validates it (1–200 characters, a single line, no control characters, not only whitespace), then writes it as `entry.txt` — with no trailing newline — into `MAKEFUN_OUTPUT_DIR` (default `/output`), creating the directory if needed, and logs the character count.
 
